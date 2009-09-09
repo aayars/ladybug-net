@@ -7,6 +7,7 @@ cpl1.0.txt
 lib/OP/Domain.pm
 lib/OP/EmailAddr.pm
 lib/OP/IPv4Addr.pm
+lib/OP/Net.pm
 lib/OP/Subnet.pm
 lib/OP/URI.pm
 t/OP.t
