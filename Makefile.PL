@@ -11,9 +11,8 @@ my $prereqs = {
 };
 
 WriteMakefile(
-  ABSTRACT_FROM => 'lib/OP/Net.pm',
   VERSION_FROM  => 'lib/OP/Net.pm',
-  NAME          => 'OP',
+  NAME          => 'OP::Net',
   PREREQ_PM     => $prereqs,
   LICENSE       => 'open_source',
   AUTHOR        => 'Alex Ayars <pause@nodekit.org>',
