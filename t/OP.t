@@ -36,11 +36,7 @@ SKIP: {
   require_ok("OP::Runtime");
   ok( OP::Runtime->import($path), 'setup environment' );
 
-  use_ok("OP::Domain");
-  use_ok("OP::EmailAddr");
-  use_ok("OP::IPv4Addr");
-  use_ok("OP::Subnet");
-  use_ok("OP::URI");
+  use_ok("OP::Net");
 }
 
 do {

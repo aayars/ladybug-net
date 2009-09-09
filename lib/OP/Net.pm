@@ -22,7 +22,7 @@ use OP::IPv4Addr;
 use OP::Subnet;
 use OP::URI;
 
-true;
+1;
 __END__
 =pod
 
@@ -47,7 +47,6 @@ Load all network datatype packages:
   # use OP::IPv4Addr;
   # use OP::Subnet;
   # use OP::URI;
-
 
 =head1 DESCRIPTION
 
