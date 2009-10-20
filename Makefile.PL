@@ -1,7 +1,7 @@
 use ExtUtils::MakeMaker;
 
 my $prereqs = {
-                       OP => 0.317,
+           Devel::Ladybug => 0.399_001,
    Data::Validate::Domain => 0.09,
     Data::Validate::Email => 0.04,
        Data::Validate::IP => 0.08,
@@ -11,8 +11,8 @@ my $prereqs = {
 };
 
 WriteMakefile(
-  VERSION_FROM  => 'lib/OP/Net.pm',
-  NAME          => 'OP::Net',
+  VERSION_FROM  => 'lib/Devel/Ladybug/Net.pm',
+  NAME          => 'Devel::Ladybug::Net',
   PREREQ_PM     => $prereqs,
   LICENSE       => 'open_source',
   AUTHOR        => 'Alex Ayars <pause@nodekit.org>',

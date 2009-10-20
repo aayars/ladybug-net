@@ -1,3 +1,6 @@
+.399_001
+  - Renamed distro to Devel::Ladybug::Net
+
 2009-10-01: .317
   - Version sync with OP 0.317; still works
   - Doc fixes

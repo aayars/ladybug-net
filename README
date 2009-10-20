@@ -1,12 +1,13 @@
 NAME
 
-    OP - Overloaded network datatypes for OP
+    Devel::Ladybug::Net - Overloaded network datatypes for Devel::Ladybug
 
 DESCRIPTION
 
-    This package provides assertable network-related datatypes for OP.
+    This package provides assertable network-related datatypes for
+    Devel::Ladybug.
 
-    See OP/Net.pm for an overview of the available types.
+    perldoc Devel::Ladybug::Net for an overview of the available types.
 
 COPYRIGHT
 

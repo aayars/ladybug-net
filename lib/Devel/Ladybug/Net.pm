@@ -1,5 +1,5 @@
 #
-# File: OP/Net.pm
+# File: lib/Devel/Ladybug/Net.pm
 #
 # Copyright (c) 2009 TiVo Inc.
 #
@@ -9,49 +9,50 @@
 # http://opensource.org/licenses/cpl1.0.txt
 #
 
-package OP::Net;
+package Devel::Ladybug::Net;
 
 our $VERSION = '0.317';
 
 use strict;
 use warnings;
 
-use OP::Domain;
-use OP::EmailAddr;
-use OP::IPv4Addr;
-use OP::Subnet;
-use OP::URI;
+use Devel::Ladybug::Domain;
+use Devel::Ladybug::EmailAddr;
+use Devel::Ladybug::IPv4Addr;
+use Devel::Ladybug::Subnet;
+use Devel::Ladybug::URI;
 
 1;
 __END__
+
 =pod
 
 =head1 NAME
 
-OP::Net - Network datatypes for L<OP>
+Devel::Ladybug::Net - Network datatypes for L<Devel::Ladybug>
 
 =head1 VERSION
 
-This documentation is for version B<0.317> of OP::Net.
+This documentation is for version B<0.317> of Devel::Ladybug::Net.
 
 =head1 SYNOPSIS
 
 Load all network datatype packages:
 
-  use OP::Net;
+  use Devel::Ladybug::Net;
 
 ...or load them as needed:
 
-  # use OP::Domain;
-  # use OP::EmailAddr;
-  # use OP::IPv4Addr;
-  # use OP::Subnet;
-  # use OP::URI;
+  # use Devel::Ladybug::Domain;
+  # use Devel::Ladybug::EmailAddr;
+  # use Devel::Ladybug::IPv4Addr;
+  # use Devel::Ladybug::Subnet;
+  # use Devel::Ladybug::URI;
 
 =head1 DESCRIPTION
 
-This package provides several assertable network-related datatypes
-for L<OP>.
+This package provides several assertable network-related datatypes for
+L<Devel::Ladybug>.
 
 All classes are overloaded.
 
@@ -59,15 +60,15 @@ All classes are overloaded.
 
 =over 4
 
-=item * L<OP::Domain> - Domain name
+=item * L<Devel::Ladybug::Domain> - Domain name
 
-=item * L<OP::EmailAddr> - Email address
+=item * L<Devel::Ladybug::EmailAddr> - Email address
 
-=item * L<OP::IPv4Addr> - IPv4 address
+=item * L<Devel::Ladybug::IPv4Addr> - IPv4 address
 
-=item * L<OP::Subnet> - CIDR-notation subnet string
+=item * L<Devel::Ladybug::Subnet> - CIDR-notation subnet string
 
-=item * L<OP::URI> - URI
+=item * L<Devel::Ladybug::URI> - URI
 
 =back
 
@@ -77,7 +78,7 @@ All classes are overloaded.
 
 =head1 COPYRIGHT
 
-  File: OP/Net.pm
+  File: lib/Devel/Ladybug/Net.pm
  
   Copyright (c) 2009 TiVo Inc.
  
